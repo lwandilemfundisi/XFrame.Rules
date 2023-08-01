@@ -1,5 +1,5 @@
 ﻿using XFrame.Rules.Extensions;
-using XFrame.Rules.Notifications;
+using XFrame.Notifications;
 using XFrame.Rules.Validations;
 using XFrame.Rules.Validations.Attributes;
 using XFrame.Rules.Validations.Common;
@@ -7,6 +7,7 @@ using XFrame.Common.Extensions;
 using System.Collections.Concurrent;
 using System.Reflection;
 using XFrame.Common;
+using XFrame.Notifications.Extensions;
 
 namespace XFrame.Rules
 {

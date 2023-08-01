@@ -1,6 +1,6 @@
 ﻿using XFrame.Common.Extensions;
 using System.Text.RegularExpressions;
-using XFrame.Rules.Notifications;
+using XFrame.Notifications;
 
 namespace XFrame.Rules.Validations.Common
 {

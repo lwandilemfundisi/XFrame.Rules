@@ -1,4 +1,4 @@
-﻿using XFrame.Rules.Notifications;
+﻿using XFrame.Notifications;
 
 namespace XFrame.Rules.Validations.Attributes
 {

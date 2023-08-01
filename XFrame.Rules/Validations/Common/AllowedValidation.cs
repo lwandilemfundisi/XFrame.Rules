@@ -1,4 +1,4 @@
-﻿using XFrame.Rules.Notifications;
+﻿using XFrame.Notifications;
 using XFrame.Common.Extensions;
 using System.Collections;
 

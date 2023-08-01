@@ -1,5 +1,5 @@
 ﻿using XFrame.Common.Extensions;
-using XFrame.Rules.Notifications;
+using XFrame.Notifications;
 
 namespace XFrame.Rules.Validations.Common
 {
