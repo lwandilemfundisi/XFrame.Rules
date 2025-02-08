@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<PackageId>XFrame.Rules</PackageId>
-	<Version>7.0.1</Version>
+	<Version>9.0.0</Version>
 	<Authors>Lwandile Mfundisi</Authors>
 	<Description>XFrame.Rules is a project dedicated to make validation on projects easy and clean</Description>
 	<IsPackable>true</IsPackable>
@@ -14,9 +14,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="XFrame.Common" Version="7.0.6" />
-    <PackageReference Include="XFrame.Notifications" Version="7.0.0" />
-    <PackageReference Include="XFrame.ValueObjects" Version="7.0.0" />
+    <PackageReference Include="XFrame.Common" Version="9.0.0" />
+    <PackageReference Include="XFrame.Notifications" Version="9.0.0" />
+    <PackageReference Include="XFrame.ValueObjects" Version="9.0.0" />
   </ItemGroup>
 
 	<Target DependsOnTargets="ResolveReferences" Name="CopyProjectReferencesToPackage">
